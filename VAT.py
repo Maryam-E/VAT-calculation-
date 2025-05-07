@@ -11,5 +11,5 @@ def calculate_vat(amount):
     total_including_vat=amount * (1+vat_rate) # Add 20% VAT to the original price
     return total_including_vat
 
-output=calculate_vat(100.12)
+output = calculate_vat(100.12)
 print(output)
